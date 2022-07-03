@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80vh;
+    width: 80vh;
+    border: 2px solid black;
+    flex-shrink: 0;
+    margin-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+}
